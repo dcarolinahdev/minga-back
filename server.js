@@ -8,3 +8,6 @@ const PORT = process.env.PORT || 8080; // definición de puerto
 const ready = () => console.log('ready on port '+ PORT);
 
 server.listen(PORT, ready); // iniciar servidor
+
+console.log(process.env)
+// console.log(process.env.NODE_ENV)
