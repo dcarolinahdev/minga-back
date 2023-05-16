@@ -8,6 +8,8 @@ let schema = new Schema ({
     photo: {type: String, required: true},
     role: {type: Number, required: true},
     online: {type: Boolean, required: true}
+},{
+    timestamps: true
 })
 
 let User = model(collection, schema)
