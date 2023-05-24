@@ -6,7 +6,7 @@ import chaptersRouter from "./chapters.js"
 
 let indexRouter = Router()
 
-indexRouter.use('/users', usersRouter)
+indexRouter.use('/auth', usersRouter)
 indexRouter.use('/authors', authorsRouter)
 indexRouter.use('/mangas', mangasRouter)
 indexRouter.use('/chapters', chaptersRouter)
