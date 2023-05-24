@@ -1,10 +1,12 @@
 import { Router } from "express"
+import usersRouter from "./auth.js"
 import authorsRouter from "./authors.js"
 import mangasRouter from "./mangas.js"
 import chaptersRouter from "./chapters.js"
 
 let indexRouter = Router()
 
+indexRouter.use('/users', usersRouter)
 indexRouter.use('/authors', authorsRouter)
 indexRouter.use('/mangas', mangasRouter)
 indexRouter.use('/chapters', chaptersRouter)
