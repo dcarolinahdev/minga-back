@@ -1,6 +1,6 @@
-# app-back
+# Minga backend app
 
-My First app in express js, taken from mindhub bootcamp.
+My First backend app with **nodejs** and **expressjs**.
 
 ### Running
 
@@ -9,7 +9,7 @@ My First app in express js, taken from mindhub bootcamp.
 ### Dependencies on package.json / dependencies
 
     - Express [^4.18.2]
-    : .
+    : Node.js web application framework.
 
     - Nodemon [^2.0.22]
     : use for recharge server.
